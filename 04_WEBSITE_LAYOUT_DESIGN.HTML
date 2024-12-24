@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBSITE LAYOUT DESIGN </title>
+    <style>
+        nav {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .logo img {
+            height: 100px;
+
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            column-gap: 27px;
+            margin: 36px;
+            font-size: 25px;
+
+        }
+
+        .container div {
+            cursor: pointer;
+        }
+
+        .content {
+            height: 157px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 78px;
+            font-weight: 500;
+
+        }
+
+        .span {
+            font-weight: 900;
+            color: yellow;
+            font-family: 'Times New Roman';
+        }
+
+        .ok {
+            display: flex;
+            align-items: center;
+        }
+
+        .content2 {
+            display: flex;
+            justify-content: center;
+            font-size: 30px;
+            margin: 10px;
+            padding: 3px;
+        }
+
+        .content3 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+
+        }
+
+        .content3 div {
+            border: 3px black solid;
+            padding: 12px;
+            border-radius: 12px;
+            background-color: #04d1f1;
+            font-size: 20px;
+            color: white;
+            font-weight: 600;
+        }
+
+        .content4 {
+            height: 200px;
+            width: 1200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 34px;
+            font-weight: 800;
+        }
+
+        .content4 div sub {
+            font-size: 18px;
+        }
+
+        .content5 {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 60px;
+
+
+        }
+
+        .box {
+            height: 270px;
+            width: 400px;
+            border: 0.1px #e8ebec solid;
+            background-color: #e8ebec;
+
+        }
+
+        .he {
+            display: flex;
+            justify-content: center;
+            margin-top: 23px;
+            font-size: 38px;
+            font-weight: 800;
+        }
+
+        .lang {
+            display: flex;
+            justify-content: center;
+            padding: 16px;
+            font-size: 21px;
+            font-weight: 400;
+        }
+
+        .eng {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            left: 120px;
+            border: 0.1px, #5cb85c, solid;
+            width: 178px;
+            height: 32px;
+            font-weight: 600;
+            margin-top: 60px;
+            border-radius: 10px;
+            font-size: 18px;
+            background-color: #5cb85c;
+            color: white;
+            cursor: pointer;
+        }
+
+        .down {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            left: 120px;
+            border: 0.1px, #5cb85c, solid;
+            width: 178px;
+            height: 32px;
+            font-weight: 900;
+            margin-top: px;
+            border-radius: 10px;
+            font-size: 18px;
+            background-color: #5cb85c;
+            color: white;
+            cursor: pointer;
+        }
+
+        .down2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            left: 0px;
+            height: 32px;
+            font-weight: 400;
+            margin-top: 29px;
+            border-radius: 10px;
+            font-size: 13px;
+            cursor: pointer;
+        }
+
+        .last {
+
+            height: 650px;
+            width: 100%;
+            border: 2px solid black;
+            background-color: rgba(0, 0, 0, 0.908);
+            margin-top: 19px;
+            color: white;
+
+
+        }
+
+
+        .boxa span {
+            font-size: 41px;
+            font-weight: 900;
+        }
+
+        .last2 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            height: 300px;
+            margin-left: 33px;
+            font-size: 18px
+        }
+
+
+
+        .boxo {
+            border: 1px white solid;
+            height: 230px;
+            width: 420px;
+            background-color: white;
+            margin-right: 80px;
+            margin-top: 34px;
+            border-radius: 35px;
+        }
+
+        .alt {
+            color: #04d1f1;
+        }
+
+        .boxo div {
+            color: #04d1f1;
+            font-size: 35px;
+            font-weight: 900;
+            margin-top: 30px;
+            margin-left: 25px;
+
+        }
+
+        .boxo pre {
+            color: black;
+            font-size: 16px;
+            margin-left: 110px;
+        }
+
+        form {
+            margin-left: 110px;
+        }
+
+        .boxo aside {
+            width: 330px;
+            height: 45px;
+            border: 1px solide #04d1f1;
+            background-color: #00b6d1;
+            ;
+            font-size: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 900;
+            margin-top: 20px;
+            margin-left: 45px;
+            cursor: pointer;
+
+        }
+
+        article {
+            display: flex;
+            width: 100%;
+            height: 300px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        article pre {
+            font-size: 15px;
+        }
+
+        .exe {
+            font-size: 24px;
+            font-weight: bolder;
+        }
+
+        .laster {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+            font-size: 20px;
+            font-weight: 900;
+        }
+
+        .spa {
+            font-size: 14px;
+            font-weight: 200;
+            cursor: pointer;
+
+        }
+
+        .f {
+            margin-left: -46px;
+        }
+
+        .subs {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #01dbfc;
+            height: 44px;
+            width: 169px;
+            font-size: 25px;
+            color: white;
+            font-weight: 900;
+            background-color: #00b6d1;
+            margin-left: 97px;
+            border-radius: 10px;
+
+        }
+
+        .foot {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .foot pre {
+            margin-left: 80px;
+        }
+
+        .foot span {
+            margin-right: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="image/logo_.jpg" alt="logo">
+            </div>
+
+            <div class="container">
+
+                <div>Products <svg fill="#000000" height="8px" width="8px" version="1.1" id="Layer_1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewBox="0 0 330 330" xml:space="preserve">
+                        <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393
+                       c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393
+                       s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z" />
+                    </svg></div>
+                <div>Resourses <svg fill="#000000" height="8px" width="8px" version="1.1" id="Layer_1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewBox="0 0 330 330" xml:space="preserve">
+                        <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393
+                       c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393
+                       s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z" />
+                    </svg></div>
+                <div>Support <svg fill="#000000" height="8px" width="8px" version="1.1" id="Layer_1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewBox="0 0 330 330" xml:space="preserve">
+                        <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393
+                       c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393
+                       s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z" />
+                    </svg></div>
+                <div>About us <svg fill="#000000" height="8px" width="8px" version="1.1" id="Layer_1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewBox="0 0 330 330" xml:space="preserve">
+                        <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393
+                       c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393
+                       s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z" />
+                    </svg></div>
+                <div>Contact <svg fill="#000000" height="8px" width="8px" version="1.1" id="Layer_1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewBox="0 0 330 330" xml:space="preserve">
+                        <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393
+                       c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393
+                       s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z" />
+                    </svg></div>
+                <div>
+                    <img src="image/tr.jpg" alt="translate" height="30px">
+                </div>
+                <div>
+                    <img src="image/search.jpg" alt="translate" height="37px">
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <main class="content">
+        <div>Download <span class="span">UltraEdit</span> For Windows</div>
+        <div class="ok"><img src="image/review.jpg" alt="reveiw" height="70px"></div>
+    </main>
+    <main class="content2">
+        <pre>Download and try UltraEdit before you buy it! This download includes the full 
+            Windows version of the text editor</pre>
+
+    </main>
+    <main class="content3">
+        <div>&nbsp;&nbsp;DOWNLOAD MAC OR LINUX VERSION&nbsp;</div>
+    </main>
+    <main class="content4">
+        <div><img src="image/logo.jpg" alt="logo" height="120px"></div>
+        <div>Download UltraEdit<sub>v2024.2 (released 2024-12-20) | Hotfix information</sub> </div>
+    </main>
+    <main class="content5">
+        <div class="box box1">
+            <div class="he">English</div>
+            <div class="eng">Download 64-bit</div>
+            <pre class="down2">                       SHA256
+ 55AFE9258051C98CF1A0878015769B5D766A870A2AD125E35EAD7
+                    5C3B0BA8612</pre>
+        </div>
+
+        <div class="box box2">
+            <div class="he">Deutsch</div>
+            <div class="lang">German</div>
+            <div class="down">Download 64-bit</div>
+            <pre class="down2">                        SHA256
+ 55AFE9258051C98CF1A0878015769B5D766A870A2AD125E35EAD7
+                    5C3B0BA8612</pre>
+        </div>
+        </div>
+        <div class="box box3">
+            <div class="he">Italiano</div>
+            <div class="lang">Italian</div>
+            <div class="down">Download 64-bit</div>
+            <pre class="down2">                        SHA256
+55AFE9258051C98CF1A0878015769B5D766A870A2AD125E35EAD7
+                    5C3B0BA8612</pre>
+        </div>
+        </div>
+        <div class="box box4">
+            <div class="he">Español</div>
+            <div class="lang">Spanish</div>
+            <div class="down">Download 64-bit</div>
+            <pre class="down2">                        SHA256
+55AFE9258051C98CF1A0878015769B5D766A870A2AD125E35EAD7
+                    5C3B0BA8612</pre>
+        </div>
+        </div>
+        <div class="box box5">
+            <div class="he">français</div>
+            <div class="lang">French</div>
+            <div class="down">Download 64-bit</div>
+            <pre class="down2">                     SHA256
+55AFE9258051C98CF1A0878015769B5D766A870A2AD125E35EAD7
+                    5C3B0BA8612</pre>
+        </div>
+        <div class="box box6">
+            <div class="he">Português brasileiro</div>
+            <div class="lang">Brazilian Portuguese</div>
+            <div class="down">Download 64-bit</div>
+            <pre class="down2">                       SHA256
+55AFE9258051C98CF1A0878015769B5D766A870A2AD125E35EAD7
+                    5C3B0BA8612</pre>
+        </div>
+        <div class="box box7">
+            <div class="he">日本</div>
+            <div class="lang">Japanese</div>
+            <div class="down">Download 64-bit</div>
+            <pre class="down2">
+
+                     SHA256
+55AFE9258051C98CF1A0878015769B5D766A870A2AD125E35EAD7
+                    5C3B0BA8612
+
+          </pre>
+        </div>
+        <div class="box box8">
+            <div class="he">한국어</div>
+            <div class="lang">Korean</div>
+            <div class="down">Download 64-bit</div>
+            <pre class="down2">
+
+                         SHA256
+55AFE9258051C98CF1A0878015769B5D766A870A2AD125E35EAD7
+                       5C3B0BA8612
+
+     </pre>
+        </div>
+        <div class="box box9">
+            <div class="he">中国</div>
+            <div class="lang">Chinese</div>
+            <div class="down">Download 64-bit</div>
+            <pre class="down2">
+
+                     SHA256
+55AFE9258051C98CF1A0878015769B5D766A870A2AD125E35EAD7
+                       5C3B0BA8612
+
+     </pre>
+        </div>
+        <div class="box box10">
+            <div class="he">中國</div>
+            <div class="lang">Traditional Chinese</div>
+            <div class="down">Download 64-bit</div>
+            <pre class="down2">
+
+                     SHA256
+55AFE9258051C98CF1A0878015769B5D766A870A2AD125E35EAD7
+                   5C3B0BA8612
+
+     </pre>
+        </div>
+
+    </main>
+    <main class="last">
+        <main>
+            <div class="last2">
+                <pre class="boxa">
+          <span>Join the <span class="alt">UltraEdit</span> newsletter</span>
+    Sign up for our newsletter and receive emails for the latest 
+    news, blogs, and special deals on UltraEdit.
+        </pre>
+                <div class="boxo">
+                    <div>Subscribe To Our Emails</div>
+                    <pre>Enter E-mail Address</pre>
+                    <form>
+                        <input type="text" required>
+                    </form>
+                    <aside>
+                        Sign Up
+                    </aside>
+
+                </div>
+
+            </div>
+
+        </main>
+        <article class="art">
+            <pre><span class="exe">EXE or MSI?</span>
+The EXE builds of our products are the preferred download for most of our users, running Windows 8.1 and later.
+
+We make MSI builds available for bulk or silent deployments (command line, GPO, SCCM, etc.). Get the UltraEdit MSI installer.
+
+<span class="exe">Free trial period</span>
+This application comes with a free, fully functional 30 day trial period. After the trial period expires, you must purchase a license to continue using it.
+</pre>
+        </article>
+    </main>
+    </nav>
+    <main class="laster">
+        <pre>What’s your language?<span class="spa">
+Code editor (General)
+Text editor
+Hex/Binary
+HTML
+CSS
+Unix shell scripts
+PL/SQL
+EDI
+C++
+PHP
+XML
+Markdown
+SAS
+Visual Basic (VB)</span>
+    </pre>
+        <pre>What do you need to do?
+        <span class="spa">
+Edit large text files
+Use secure and compliant software
+Work with unique languages and formats
+Edit hex and binary files
+Reformat XML/JSON files
+Massive find and replace operations
+Edit via columns/blocks
+        </span>
+    </pre>
+        <pre>What type of user are you?
+        <span class="spa">
+Programmer / Developer
+Web Developer
+Database Manager
+System Administrator
+Technical Writer
+Editor / Publisher
+Medical / Pharmaceutical
+        </span>
+    </pre>
+        <pre>General<span class="spa">
+Contact
+License Agreement (EULA)
+End of Life Policy
+Libraries and Patents
+Information Policy
+Privacy Policy
+Uninstall Instructions
+Sitemap
+Legal
+Software Security</span>
+    </pre>
+
+        <pre>Subscribe to Newsletter
+ <span class="spa">Get the latest news on new 
+    releases, event, and 
+        developments
+        <form class="f">
+            <input type="text" placeholder="Enter email address...">
+            <div class="subs">SUBSCRIBE</div>
+        </form>
+        </span>
+    </pre>
+    </main>
+    <footer class="foot">
+        <pre>
+        <img src="image/logo_.jpg" alt="logo" height="100px">
+                      &copy;UltraEdit. All rights reserved
+    </pre>
+        <span><img src="image/social.jpg" alt="social"></span>
+    </footer>
+
+    </main>
+
+
+
+
+
+</body>
+
+</html>
